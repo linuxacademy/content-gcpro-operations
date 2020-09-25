@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: cloud-trace-acg-container
-        image: gcr.io/cloud-trace-acg/acg-image:latest
+        image: gcr.io/[PROJECT_ID]/acg-image:latest
         command:
         - python
         args:
